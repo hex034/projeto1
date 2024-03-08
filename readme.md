@@ -1,11 +1,13 @@
-<h1 align="center"> Projeto1</h1>
+<h1 align="center"> Iniciante - Corrigindo bugs (01) 👀</h1>
 
 <p align="center">
-Programa exclusivo e promovido pela Rocketseat para ensino de tecnologias WEB, e aprendizado. <br/>
+Resolvendo bug iniciante do modulo explorar<br/>
 <a href="https://spgunk.eu.org">Meu portifolio em NextJS</a>
 </p>
 
-
+<p>
+<img src="./.github/img.png">
+</p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -34,7 +36,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto1 e uma aula feita pela RocketSeat chamada de explorer, utilizando html e css, porem adicionei JavaScript pra ficar mais bonito e complementar meu aprendizado.
+Esse projeto foi um desafio feito pela RocketSeat como "desafio iniciante 1"
+e você pode ver como estava o projeto na imagem acima..
 
 - [Acesse o projeto finalizado, online](https://hex034.github.io/projeto1/)
 
