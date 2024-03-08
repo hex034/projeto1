@@ -6,7 +6,10 @@ Resolvendo bug iniciante do modulo explorar<br/>
 </p>
 
 <p>
+Antes
 <img src="./.github/img.png">
+Depois
+<img src="./.github/img2.png">
 </p>
 
 <p align="center">
