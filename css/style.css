@@ -1,0 +1,119 @@
+:root {
+    --bg-color: black;
+    --text-color: white;
+    --border-color: 1px solid #2e2e2e;
+    --text-shadow: 1px 2px 7px white;
+    --switch-bg-url: url(../img/On.svg);
+}
+
+.white {
+    --bg-color: white;
+    --text-color: black;
+    --border-color: 1px solid #ECEFF2;
+    --text-shadow: 1px 2px 7px black;
+    --switch-bg-url: url(../img/Off.svg);
+}
+
+body {
+    height: 100vh;
+   background-color: var(--bg-color);
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin: 0;
+}
+ 
+h1 {
+    text-shadow: var(--text-shadow);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 49px;
+    line-height: 56px;
+    margin-bottom: 32px;
+    color: var(--text-color);
+
+}
+
+#test {
+    
+    width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: auto;
+padding: 20px;
+}
+
+
+#button:hover{
+    background-color: rgb(170, 170, 170);
+   
+}
+
+#button  {
+    
+    width: 50px;
+  height: 50px;
+  background: white var(--switch-bg-url) no-repeat center;
+    
+  
+  border-radius: 50%;
+
+  position: relative;
+  
+
+  
+}
+
+#hero {
+    width: 592px;
+    margin: 0 auto 72px;
+}
+
+
+
+h1 span {
+    font-weight: bold;
+}
+
+
+span, a {
+    color: orange;
+}
+
+
+p, #footer {
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+#footer a + a {
+    margin-left: 28px;
+}
+
+
+#line {
+    width: 568px;
+    height: 0;
+    border: var(--border-color);  
+    margin: 0 auto 8px;
+}
+
+#bolinhas {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+@media (min-width: 700px) {
+    :root {
+      --bg-color: black;
+    }
+  
+    .white {
+      --bg-color: white;
+    }
+  }
