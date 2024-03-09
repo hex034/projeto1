@@ -15,7 +15,8 @@
 }
 
 body {
-    height: 100vh;
+    
+    
    background-color: var(--bg-color);
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -72,7 +73,7 @@ padding: 20px;
     width: 100%;    
     
     margin: 0 auto 72px;
-    max-width: 588px;
+    max-width: 500px;
  
   
 }
@@ -102,7 +103,7 @@ p, #footer {
 
 #line {
     
-    width: 568px;
+    width: 500px;
     height: 0;
     border: var(--border-color);  
     margin: 0 auto 8px;
