@@ -5,10 +5,8 @@ function botao() {
     html.classList.toggle('root')
 
     if (html.classList.contains("white")) {
-        // se tiver light mode, adicionar a imagem light
         Swal.fire("Modo Claro!");
-      } else {
-        // se tiver sem light mode, manter a imagem normal
+      } else { 
         Swal.fire("Modo Escuro!");
       }
 }
