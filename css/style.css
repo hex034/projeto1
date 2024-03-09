@@ -69,11 +69,12 @@ padding: 20px;
 }
 
 #hero {
-    width: 592px;
+    width: 100%;    
+    
     margin: 0 auto 72px;
     max-width: 588px;
  
-  padding: 0 24px;
+  
 }
 
 
@@ -100,6 +101,7 @@ p, #footer {
 
 
 #line {
+    
     width: 568px;
     height: 0;
     border: var(--border-color);  
